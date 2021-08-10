@@ -41,16 +41,41 @@
 
 .story {
   border: 1px solid black; 
+  flex: 1 0 auto;
+  padding: 10px;
+  margin: 5px;
 }
 
 .container { 
   display: flex;
   flex-direction: column;
+  align-content: space-around;
+  /* flex-wrap: wrap; */
 }
 
 .container-top {
   display: flex;
   justify-content: space-between;
+}
+.container-main {
+  display: flex;
+  flex: 1;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.blizzard {
+  min-height: 600px;
 }
 /* } */
 
