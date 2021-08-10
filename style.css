@@ -1,7 +1,5 @@
-/* @media only screen and (min-width: 1000px){ */
 .navbar{
-  /* position: fixed; */
-  /* border: 1px solid black; */
+
   display: flex;
   align-items: space-between;
   flex: 1;
@@ -42,8 +40,12 @@
 .story {
   border: 1px solid black; 
   flex: 1 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 10px;
   margin: 5px;
+  color: white;
+  font-weight: 700;
 }
 
 .container { 
@@ -75,9 +77,29 @@
 }
 
 .blizzard {
-  min-height: 600px;
+  min-height: 320px;
+  background-image: url('./images/blizzard.jpeg');
 }
-/* } */
+
+.conference {
+  min-height: 240px;
+  background-image: url('./images/conference.jpg');
+}
+
+.twitter {
+  min-height: 250px;
+  background-image: url('./images/twitter.jpeg');
+}
+
+.google {
+  min-height: 250px;
+  background-image: url('./images/crystals.jpeg');
+}
+
+.review {
+  min-height: 380px;
+  background-image: url('./images/nothing-ear.gif');
+}
 
 
 @media only screen and (max-width: 700px){
