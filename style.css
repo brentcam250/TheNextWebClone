@@ -38,7 +38,7 @@
 }
 
 .story {
-  border: 1px solid black; 
+  /* border: 1px solid black;  */
   flex: 1 0 auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,5 +144,19 @@
   
   .banner { 
     display: none;
+  }
+  .container-top { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .body-title-right {
+    font-size: medium;
+    /* display: flex; */
+  }
+
+  .container-main {
+    flex-direction: column;
   }
 }
