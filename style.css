@@ -42,10 +42,16 @@
   flex: 1 0 auto;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 10px;
   margin: 5px;
   color: white;
   font-weight: 700;
+  display: flex; 
+}
+
+.story p {
+  align-self: flex-end
 }
 
 .container { 
