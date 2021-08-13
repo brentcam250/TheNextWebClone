@@ -116,6 +116,8 @@
 
 .popular-article{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .popular-article h3{
@@ -124,6 +126,7 @@
   margin: 10px;
 }
 .popular-article p {
+  justify-self: flex-start;
   font-weight: bold;
   font-size: x-large;
 }
@@ -179,4 +182,20 @@
   .container-main {
     flex-direction: column;
   }
+
+  .articles-container{
+    flex-direction: column;
+  }
+  
+  .popular-article{
+
+  }
+  
+  .popular-article h3{
+
+  }
+  .popular-article p {
+
+  }
+  
 }
