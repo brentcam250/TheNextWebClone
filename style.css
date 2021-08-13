@@ -2,6 +2,19 @@
   font-family: "Trump Soft Pro","Arial Narrow","sans-serif";
 }
 
+
+html, body {
+
+
+
+  margin:0;
+  
+  padding:0;
+  
+  
+  
+}
+
 .navbar{
 
   display: flex;
@@ -16,6 +29,7 @@
   display: flex;
   flex: 1;
   align-items: center;
+  padding: 10px;
 }
 
 .navbar .center { 
@@ -32,14 +46,20 @@
   flex: 1;
   align-items: center;
   justify-content: flex-end;
+  padding: 10px;
 }
 
 
 .banner { 
   background: #fd3;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
 }
+
+.banner p{
+  padding-left: 10px;
+}
+
 
 .story {
   /* border: 1px solid black;  */
