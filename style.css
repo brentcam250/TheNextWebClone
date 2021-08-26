@@ -177,6 +177,7 @@ html, body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin: 10px;
 }
 .latest-stories-container {
   /* border: 10px solid lime; */
@@ -252,6 +253,19 @@ html, body {
   }
   .popular-article p {
 
+  }
+
+  .latest-story{
+    flex-direction: row;
+  }
+
+  .latest-story img{
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .row{
+    display: block;
   }
   
 }
